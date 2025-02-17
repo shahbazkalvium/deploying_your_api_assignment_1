@@ -85,6 +85,24 @@ You should see the environment variables printed in the console if everything is
 
 ---
 
+
+Importance of .env File
+A .env file stores environment variables like API keys, database credentials, and configurations, keeping them separate from code.
+
+Why Use It?
+Security – Hides sensitive data.
+Flexibility – Easy to switch between environments.
+Portability – Simplifies deployment.
+How It Works
+A .env file contains key-value pairs:
+
+plaintext
+Copy
+Edit
+PORT=3000  
+SECRET_KEY=mysecretkey  
+
+
 ## **🏁 Outcome**
 
 By completing this exercise, you will have:
